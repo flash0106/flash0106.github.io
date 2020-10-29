@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!--Title here-->
-    <title>漫威迷 - 欢迎来到漫威迷官方网站</title>
+    <title>英雄介绍</title>
     <title>导航条</title>
 	<style type="text/css">
 		*{
 			padding: 0px;
-			margin:0 auto;
+			margin: 0px;
 		}
 
 		.nav{
@@ -43,49 +43,22 @@
 			background-color: red;
 		}
 		.mainimg{
-			float: left;
 			position: relative;
 			top:60px;
-			width: 80%;
-		}
-		.mainmenu{
-			list-style: none;
-			position: relative;
-			top: 60px;
-			float: left;
-			background-color:		#A9A9A9;
-			overflow: hidden;
-			zoom: 1;
-			width: 20%;
-			height:684px;
-			color: white;
-			font-weight: bold;
-			
-		}
-		.mainmenu h2{
-			background-color:#696969;
-			height: 60px;
-			padding-top: 20px;
-		}	
-		.mainmenu li{
-			
-			text-align:left;
-			height: 50px;
-			background-color:#A9A9A9;
-		}
-		.mainmenu a{
 			width: 100%;
-			height: 50px;
-			display:block;
-			text-align: left;
-			padding: 0px 0px;
-			text-decoration: none;
-			color: white;
-			font-weight: bold;
+			opacity: 0.7;
+			z-index: -1;
 		}
-		.mainmenu a:hover{
-			text-align:left;
-			background-color: #DCDCDC;
+		.caption{
+			position: absolute;
+			width: 1520px;
+			top: 350px;
+			text-align: center;
+			color: #323232;
+			text-shadow:3px 3px#A9A9A9;
+			font-size: 144px;
+			font-weight: bold;
+			z-index: 2;
 		}
 		.clearBoth{
 			clear: both;
@@ -93,6 +66,7 @@
 		.mainpassage{
 			width: 100%;
 			height: 1000px;
+			
 		} 
 		.colorblock{
 			width: 100%;
@@ -143,27 +117,9 @@
 			<div class="mainimg" >
 				<img src="assets/images/main.jpg" alt="" width="100%">
 			</div>
-			<div class="mainmenu">
-				<ul>
-					<h2>网站导航</h2>
-					<li><a href="index.html">1、主页</a></li>
-					<li><a href="hero.html">2、英雄介绍</a></li>
-					<li><a href="movie.html">3、电影介绍</a></li>
-					<li><a href="discussion.html">4、论坛</a></li>
-					<li>&nbsp;</li>
-					<li>&nbsp;</li>
-					<li>&nbsp;</li>
-					<li>&nbsp;</li>
-					<li>&nbsp;</li>
-				</ul>
-			</div>
-			
-		</div>
-		<div class="clearBoth"></div>   
+			<div class="caption"><p>漫 威 大 家 庭</p></div>	
+		</div>  
 		<div class="mainpassage">
-			<div class="colorblock">
-				<p>发掘漫威英雄的不同面</p>
-			</div>
 			<div class="passage">
 
 			</div>
@@ -189,7 +145,7 @@
 		</div>
 		<div class="clearBoth"></div> 
    </div>
-   <div class="clearBoth"></div>
+
    
 </body>
 </html>
